@@ -1,0 +1,28 @@
+.banner {
+  background-image: url(../../../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 100vh;
+}
+.banner-text {
+  padding-top: 210px;
+}
+.banner h5 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+.banner h1 {
+  font-size: 75px;
+  font-weight: normal;
+  font-family: serif;
+  line-height: 100px;
+}
+.banner h4 {
+  font-size: 32px;
+  font-weight: normal;
+  font-family: serif;
+  line-height: 35px;
+}

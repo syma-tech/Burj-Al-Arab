@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "react-bootstrap";
+import Header from "./Pages/Shared/Header/Header";
+
+import Footer from "./Pages/Shared/Footer/Footer";
+import Home from "./Pages/Home/Home/Home";
+import JoinNow from "./Pages/JoinNow/JoinNow";
+import { Route, Routes } from "react-router-dom";
+import Login from "./Pages/Login/Login";
+import Checkout from "./Pages/Checkout/Checkout";
+import RequireAuth from "./RequireAuth/RequireAuth";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/joinNow" element={<JoinNow />} />
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/checkout"
+          element={
+            <RequireAuth>
+              <Checkout />
+            </RequireAuth>
+          }
+        />
+      </Routes>
+      <Footer></Footer>
     </div>
   );
 }

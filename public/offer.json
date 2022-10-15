@@ -1,0 +1,62 @@
+[
+  {
+    "_id": 1,
+    "name": "Bastion Jazz Night",
+    "offer": "10%",
+    "category": "single-room",
+    "picture": "https://i.ibb.co/zsWMRrr/burj-al-arab-royal-suite-staircase-5-hero.jpg",
+    "breakefast": "Indulgent daily breakfast",
+    "dinner": "A choice of complimentary lunch or dinner",
+    "deadline": "Offer valid untill 25 December"
+  },
+  {
+    "_id": 2,
+    "name": "Dubai's First Underwater Resort",
+    "offer": "10%",
+    "category": "single-room",
+    "picture": "https://i.ibb.co/2k1CGhT/8419383361-cc80b13c69-b.jpg",
+    "breakefast": "Indulgent daily breakfast",
+    "dinner": "A choice of complimentary lunch or dinner",
+    "deadline": "Offer valid untill 25 December"
+  },
+  {
+    "_id": 3,
+    "name": "The master suite.",
+    "offer": "10%",
+    "category": "double-room",
+    "picture": "https://i.ibb.co/LptW5zQ/images-q-tbn-ANd9-Gc-Qfbq-Ic-KZ6d2a-Dmp-KALAdmw-Nk69-D2-Tb-GLKaa4e-MLUq-Wyq-X1-Uh-Bs-Y7-Zgza-ISm-X-4.jpg",
+    "breakefast": "Indulgent daily breakfast",
+    "dinner": "A choice of complimentary lunch or dinner",
+    "deadline": "Offer valid untill 25 December"
+  },
+  {
+    "_id": 4,
+    "name": "Double Points Offer",
+    "offer": "10%",
+    "category": "single-room",
+    "picture": "https://i.ibb.co/9cY1SGD/e55c22b64659c9ef92cc21bf99f5f0ea-romantic-dinners-red-roses.jpg",
+    "breakefast": "Indulgent daily breakfast",
+    "dinner": "A choice of complimentary lunch or dinner",
+    "deadline": "Offer valid untill 25 December"
+  },
+  {
+    "_id": 5,
+    "name": "The dining room.",
+    "offer": "10%",
+    "category": "single-room",
+    "picture": "https://i.ibb.co/gWdZWFJ/leonardo-1125824-Burj-Al-Arab-Sky-One-Bedroom-Suite-Living-Room-O-673683.jpg",
+    "breakefast": "Indulgent daily breakfast",
+    "dinner": "A choice of complimentary lunch or dinner",
+    "deadline": "Offer valid untill 25 December"
+  },
+  {
+    "_id": 6,
+    "name": "A dining room.",
+    "offer": "10%",
+    "category": "single-room",
+    "picture": "https://i.ibb.co/xh4rvDf/Al-Muntaha.jpg",
+    "breakefast": "Indulgent daily breakfast",
+    "dinner": "A choice of complimentary lunch or dinner",
+    "deadline": "Offer valid untill 25 December"
+  }
+]
